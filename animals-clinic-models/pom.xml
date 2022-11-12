@@ -4,10 +4,10 @@
     <parent>
         <groupId>host.enumerableentity</groupId>
         <artifactId>animals-clinic</artifactId>
-        <version>0.0.2</version>
+        <version>0.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>animals-clinic-models</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>animals-clinic-models</name>
     <description>animals-clinic-models</description>
     <packaging>jar</packaging>
