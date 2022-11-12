@@ -1,0 +1,27 @@
+package host.enumerableentity.animalsclinic.model;
+
+import host.enumerableentity.animalsclinic.enums.AnimalType;
+import lombok.*;
+
+import javax.persistence.*;
+import java.time.LocalDate;
+
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString(onlyExplicitlyIncluded = true)
+@Entity
+@Table(name = "animal")
+public class Animal {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", nullable = false)
+    private Long id;
+
+    private AnimalType type;
+    private Owner owner;
+    private LocalDate birthDate;
+
+}
