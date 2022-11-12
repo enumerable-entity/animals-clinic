@@ -1,4 +1,4 @@
-package host.enumerableentity.animalsclinic.model;
+package host.enumerableentity.animalsclinicmodels.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

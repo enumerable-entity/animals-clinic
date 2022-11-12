@@ -1,4 +1,4 @@
-package host.enumerableentity.animalsclinic.enums;
+package host.enumerableentity.animalsclinicmodels.enums;
 
 public enum AnimalType {
     DOG,

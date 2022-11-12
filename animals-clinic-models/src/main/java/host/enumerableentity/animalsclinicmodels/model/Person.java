@@ -1,4 +1,4 @@
-package host.enumerableentity.animalsclinic.model;
+package host.enumerableentity.animalsclinicmodels.model;
 
 import lombok.*;
 import lombok.experimental.SuperBuilder;

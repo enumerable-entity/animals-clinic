@@ -1,6 +1,7 @@
-package host.enumerableentity.animalsclinic.model;
+package host.enumerableentity.animalsclinicmodels.model;
 
-import host.enumerableentity.animalsclinic.enums.AnimalType;
+
+import host.enumerableentity.animalsclinicmodels.enums.AnimalType;
 import lombok.*;
 
 import javax.persistence.*;

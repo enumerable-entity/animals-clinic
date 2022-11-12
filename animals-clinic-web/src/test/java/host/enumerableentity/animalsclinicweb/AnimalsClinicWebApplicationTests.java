@@ -1,10 +1,10 @@
-package host.enumerableentity.animalsclinic;
+package host.enumerableentity.animalsclinicweb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AnimalsClinicApplicationTests {
+class AnimalsClinicWebApplicationTests {
 
     @Test
     void contextLoads() {
