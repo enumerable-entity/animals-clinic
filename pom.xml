@@ -17,7 +17,7 @@
 
     <groupId>host.enumerableentity</groupId>
     <artifactId>animals-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <name>Animals Clinic</name>
     <description>Animals Clinic</description>
@@ -69,6 +69,6 @@
     </build>
     <scm>
         <developerConnection>scm:git:git@github.com:enumerable-entity/animals-clinic.git</developerConnection>
-      <tag>0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 </project>

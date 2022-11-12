@@ -4,11 +4,11 @@
     <parent>
         <groupId>host.enumerableentity</groupId>
         <artifactId>animals-clinic</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>animals-clinic-web</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>animals-clinic-web</name>
     <description>animals-clinic-web</description>
     <properties>
@@ -35,7 +35,7 @@
         <dependency>
             <groupId>host.enumerableentity</groupId>
             <artifactId>animals-clinic-models</artifactId>
-            <version>0.0.1</version>
+            <version>0.0.2-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
