@@ -2,9 +2,7 @@ package host.enumerableentity.animalsclinicweb.service;
 
 import host.enumerableentity.animalsclinicmodels.model.Owner;
 
-public interface OwnerService {
-    Owner findById(Long id);
+public interface OwnerService extends CrudService<Owner, Long> {
 
-    Owner save(Owner owner);
-
+    Owner findByLastName(String lastName);
 }
