@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>List of Veterinary</title>
+    <title>Owners list</title>
 </head>
 <body>
 <table>
@@ -14,13 +14,12 @@
     </tr>
     </thead>
     <tbody>
-    <tr th:each="veterinary : ${veterinaries}">
-        <td th:text="${veterinary.id}">1</td>
-        <td th:text="${veterinary.firstName}">George</td>
-        <td th:text="${veterinary.lastName}">Franklin</td>
+    <tr th:each="owner : ${owners}">
+        <td th:text="${owner.id}">1</td>
+        <td th:text="${owner.firstName}">George</td>
+        <td th:text="${owner.lastName}">Franklin</td>
     </tr>
     </tbody>
 </table>
 </body>
 </html>
-

@@ -22,6 +22,9 @@ public class Animal {
     private Long id;
 
     private AnimalType type;
+
+    @ManyToOne
+    @JoinColumn(name = "owner_id")
     private Owner owner;
     private LocalDate birthDate;
 

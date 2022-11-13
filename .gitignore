@@ -5,6 +5,10 @@ target/
 !**/src/test/**/target/
 mvnw
 mvnw.cmd
+TestDataBase.lock.db
+TestDataBase.mv.db
+release.properties
+
 
 ### STS ###
 .apt_generated
